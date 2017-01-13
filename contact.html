@@ -4,20 +4,61 @@
     <title>Contact</title>
 </head>
 <body>
-    
-    <table border="1">
+
         <nav>
+            <table border="1">
             <tr>
                 <th><a href="index.html">Home</a></th>
                 <th><a href="contact.html">Contact</a></th>
                 <th><a href="work.html">Work</a></th>
                 <th><a href="photographs.html">Photographs</a></th>
             </tr>
+            </table>
         </nav>
-    </table>
+
     
     <h1>Contact</h1>
-    <p>To contact me email me at:</p>
+    
+    <div>
+        <p>To contact me email me at:</p>
+        
+        <form name="Email" action="success.html" method="post">
+            <div>
+                 <label>Reason for message?</label>
+                    <select name="message">
+                         <option value="reason">Job</option>
+                        <option value="reason">Purchase</option>
+                        <option value="reason">Meeting</option>
+                        <option value="reason">Other</option>
+                    </select>
+            </div>
+            
+            <div>
+                 <h2>Email Message</h2>
+                    <textarea name="message area" rows="5" cols="40">Enter message here</textarea>
+             </div>
+  
+            <div>
+                <label>Enter in your email address please</label>
+                    <input type="email" name="email">
+            </div>
+  
+            <div>
+                <label>When would you like to send your message?</label>
+                    <input type="date" name="date">
+            </div>
+  
+            <div>
+                <input type="checkbox" name="cb-agree" value="agree"> "I want to send the message."
+            </div>
+            
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        
+        </form>
+    
+    </div>
     
 </body>
 </html>
