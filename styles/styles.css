@@ -1,6 +1,8 @@
 body {
-    background: blue;
+    background-image: url(painting.jpg);
+    background-color: blue;
 }
+
 
 #navigation {
     width: 100%;
@@ -13,9 +15,12 @@ body {
 }
 
 .nav-table {
-    border-right-style: solid;
-    border-right-color: black;
-    border-right-width: 3px;
+    border-right: 3px solid black;
+
+}
+
+.nav-table th:last-of-type {
+    border: none;
 }
 
 #welcome {
@@ -28,13 +33,15 @@ body {
 }
 
 #interest-table {
-    position:relative;
+    border-style: solid;
+    border-color: #f9922a;
     margin-left: auto;
     margin-right: auto;
 }
 
-#art {
-    background-image: url("");
+#font {
+    font-family: Helvetica;
+    font-size: 50px;
 }
 
 
