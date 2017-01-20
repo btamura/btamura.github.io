@@ -18,6 +18,23 @@ body {
     border-right-width: 3px;
 }
 
+#welcome {
+    margin-left: 1.5%;
+}
 
+.welcome-section {
+    margin-left: 2%;
+    max-width: 95%;
+}
+
+#interest-table {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#art {
+    background-image: url("");
+}
 
 
