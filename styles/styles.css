@@ -1,8 +1,13 @@
 body {
-    background-image: url("Art.JPG");
     background-color: yellow;
 }
 
+h1 {
+    background-image: url("../images/Art.JPG");
+    border-radius: 5px;
+    color: red;
+    padding: 5px;
+}
 
 #navigation {
     width: 100%;
