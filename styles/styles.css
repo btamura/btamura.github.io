@@ -56,11 +56,11 @@ h1 {
 
 
 a:link {
-    color: #FF0000;
+    color: #0000FF;
 }
 
 a:visited {
-    color: #0000FF;
+    color: #FF0000;
 }
 
 
@@ -77,4 +77,6 @@ footer {
     footer text from wrapping to a second line.*/
     white-space: nowrap;
 }
+
+@media screen body {max-width: 800px;}}
 
