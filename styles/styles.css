@@ -12,7 +12,8 @@ h1 {
 #navigation {
     width: 100%;
     background: #2accf9;
-    padding: 5px 5px 5px 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 5px;
     border: 3px;
     border-style: solid;
@@ -24,7 +25,7 @@ h1 {
 
 }
 
-.nav-table th:last-of-type {
+.nav-table:last-of-type {
     border: none;
 }
 
@@ -40,6 +41,8 @@ h1 {
 #interest-table {
     border-style: solid;
     border-color: #f9922a;
+
+    /*To center the table I margin-left and margin-right*/
     margin-left: auto;
     margin-right: auto;
 }
