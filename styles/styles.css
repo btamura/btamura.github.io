@@ -22,6 +22,8 @@ h1 {
 
 .nav-table {
     border-right: 3px solid black;
+    font-family: Tahoma;
+    font-style: italic;
 
 }
 
@@ -52,4 +54,27 @@ h1 {
     font-size: 50px;
 }
 
+
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
+
+
+footer {
+    position: fixed;
+    margin-left: 38%;
+    margin-right: 38%;
+    max-width: 400px;
+    font-weight: bold;
+    font-family: Georgia;
+
+    /*White-space: nowrap was used to prevent to 
+    footer text from wrapping to a second line.*/
+    white-space: nowrap;
+}
 
